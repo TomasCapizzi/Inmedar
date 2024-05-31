@@ -1,0 +1,26 @@
+@import './theme';
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $light;
+    -webkit-box-shadow: 0px -1px 9px 2px rgba(72,72,72,0.31);
+    -moz-box-shadow: 0px -1px 9px 2px rgba(72,72,72,0.31);
+    box-shadow: 0px -1px 9px 2px rgba(72,72,72,0.31);
+    img{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+    ul{
+        display: flex;
+        li{
+            margin: 0 18px;
+            cursor: pointer;
+            color: $black;
+            font-size: 16px;
+        }
+    }
+}

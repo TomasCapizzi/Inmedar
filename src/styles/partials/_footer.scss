@@ -1,0 +1,25 @@
+@import './theme';
+
+footer{
+    background-color: $black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .footer-container{
+        display: flex;
+        width: 100%;
+        max-width: 1080px;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+        }
+        h5{
+            color: $light;
+            margin: 5px;
+        }
+    }
+
+}

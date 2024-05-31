@@ -1,0 +1,83 @@
+@import './theme';
+
+.contacto-container{
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    margin-bottom: 100px;
+    .form-container{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            label{
+                color: $blue;
+                font-weight: 600;
+                margin: 5px;
+            }
+            input{
+                width: 80%;
+                padding: 12px;
+                border-radius: 5px;
+                border: none;
+                background-color: $grey;
+            }
+            textarea{
+                background-color: $grey;
+                border: none;
+                min-height: 60px;
+                width: 80%;
+                padding: 12px;
+                border-radius: 5px;
+                resize: none;
+            }
+            button{
+                background-color: $blue;
+                padding: 8px 25px;
+                font-size: 16px;
+                color: $white;
+                margin: 15px;
+                box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
+                -webkit-box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
+                -moz-box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
+            }
+        }
+    }
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-top: 30px;
+        div{
+            display: flex;
+            width: 80%;
+            iframe{
+                width: 90%;
+                height: 350px;
+                border-radius: 12px;
+                border: none;
+            }
+        }
+        .datos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            h4{
+                margin: 0;
+                color: $blue;
+            }
+            p{
+                margin: 5px;
+                color: $black;
+            }
+        }
+    }
+}

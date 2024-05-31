@@ -1,0 +1,36 @@
+@import './theme';
+
+.productos-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: $black;
+    .productos{
+        background-image: url('../../../public/img/portada2.png');
+        object-fit: contain;
+        max-width: 1080px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-height: 500px;
+        h3{
+            color: $blue;
+            font-size: 22px;
+            background-color: rgba($color: $light, $alpha: 0.7);
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: auto;
+            margin: 25px 0;
+            border: 3px solid $blue;
+        }
+        ul{
+            display: flex;
+            padding-left: 0;
+            width: 80%;
+            justify-content: space-around;
+        }
+    }
+}

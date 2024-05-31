@@ -1,0 +1,21 @@
+@import './theme';
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 9px 11px 42px 3px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 9px 11px 42px 3px rgba(0,0,0,0.81);
+    -moz-box-shadow: 9px 11px 42px 3px rgba(0,0,0,0.81);
+    h4{
+        color: $black;
+        font-size: 20px;
+        margin: 0;
+    }
+    img{
+        width: 180px;
+    }
+}

@@ -1,0 +1,32 @@
+@import './theme';
+
+.inmedar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $blue;
+    .inmedar{
+        display: flex;
+        max-width: 1080px;
+        align-items: center;
+        article{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            align-items: center;
+            h3{
+                color: $white;
+            }
+            p{
+                text-align: justify;
+                width: 85%;
+                color: $white;
+            }
+        }
+        img{
+            width: 50%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+}
