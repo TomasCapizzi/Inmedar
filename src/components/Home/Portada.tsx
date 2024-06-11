@@ -9,7 +9,7 @@ export default function Portada() {
         <img src="./img/logo/INMEDAR PNG.png" alt="" />
         <h1>Soluciones .....</h1>
       </div>
-      <img src="./img/portada/portada.jpg" alt="portada" />
+      <img src="./img/home4.jpg" alt="portada" />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Contacto() {
   return (
-    <div className='contacto-container'>
+    <div className='contacto-container' id='contacto'>
         <article className='form-container'>
             <h3>Contáctanos</h3>
             <form action="">
@@ -25,9 +25,10 @@ export default function Contacto() {
             </div>
             <div className='datos'>
                 <h4>Teléfono</h4>
-                <p>+54 9 11 1234-5678</p>
+                <p>+54-11-6686-0941</p>
                 <h4>Mail</h4>
                 <p>info@inmedar.com.ar</p>
+                <p>ventas@inmedar.com</p>
             </div>
         </article>
     </div>
