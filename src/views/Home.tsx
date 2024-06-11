@@ -1,21 +1,18 @@
-import Portada from '../components/Portada'
-import Características from '../components/Características'
-import Inmedar from '../components/Inmedar'
-import Productos from '../components/Productos'
-import Contacto from '../components/Contacto'
-import Footer from '../components/Footer';
 
 //type Props = {}
+
+import Portada from "../components/Home/Portada";
+import Inmedar from "../components/Home/Inmedar";
+import Servicios from "../components/Home/Servicios";
+import Contacto from "../components/Home/Contacto";
 
 export default function Home() {
   return (
     <div className='home'>
-        <Portada/>
-        <Características/>
-        <Inmedar/>
-        <Productos/>
-        <Contacto/>
-        <Footer/>
+      <Portada/>
+      <Inmedar/>
+      <Servicios/>
+      <Contacto/>
     </div>
   )
 }
