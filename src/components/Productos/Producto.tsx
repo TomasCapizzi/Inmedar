@@ -1,14 +1,21 @@
-import { producto } from '../../types/producto'
+import { gasoterapia } from '../../types/gasoterapia'
+import { implante } from '../../types/implante'
+import { unidadSuministro } from '../../types/unidadSuministro'
 
 type Props = {
-    prod: producto
+    prod: (gasoterapia | unidadSuministro | implante)
   }
 
 export default function Producto({prod}: Props) {
   return (
-    <div className='producto2'>
-        <h4>{prod.name}</h4>
-        <img src={prod.img} alt="producto" />
+    <div className='producto-item'>
+        <div className='img-container'>
+          <img src={prod.img} alt="producto" />
+        </div>
+        <div className='info-container'>
+          <h4>{prod.nombre}</h4>
+          <p>{prod.uso}</p>
+        </div>
     </div>
   )
 }

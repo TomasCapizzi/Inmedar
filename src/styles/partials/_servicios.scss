@@ -32,3 +32,105 @@
         flex-direction: row-reverse;
     }
 }
+
+@media only screen and (max-width:550px){
+    .servicios-container{
+        .servicio{
+            flex-direction: column;
+            align-items: center;
+            max-width: 1080px;
+            margin: 20px;
+            div{
+                width: 100%;
+                p{
+                    font-size: 14px;
+                }
+            }
+            img{
+                width: 100%;
+                max-width: 100%;
+                height: 130px;
+            }
+        }
+        .servicio:nth-child(2){
+            flex-direction: column;
+        }
+    }
+     
+}
+
+@media only screen and (min-width:551px) and (max-width:800px){
+    .servicios-container{
+        .servicio{
+            max-width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            div{
+                width: 35%;
+                h2{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 14px;
+                    width: 90%;
+                }
+            }
+            img{
+                width: 65%;
+                max-width: 65%;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        .servicio:nth-child(2){
+            div{
+                align-items: end;
+                h2{
+                    text-align: end;
+                }
+                p{
+                    text-align: end;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:1080px){
+    .servicios-container{
+        .servicio{
+            max-width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            div{
+                width: 45%;
+                h2{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 14px;
+                    width: 90%;
+                }
+            }
+            img{
+                width: 40%;
+                max-width: 65%;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        .servicio:nth-child(2){
+            div{
+                align-items: end;
+                h2{
+                    text-align: end;
+                }
+                p{
+                    text-align: end;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

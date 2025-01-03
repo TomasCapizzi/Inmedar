@@ -11,6 +11,9 @@
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
+        h3{
+            margin-top: 0;
+        }
         form{
             display: flex;
             flex-direction: column;
@@ -42,10 +45,15 @@
                 padding: 8px 25px;
                 font-size: 16px;
                 color: $white;
+                border-radius: 8px;
+                border: none;
                 margin: 15px;
                 box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
                 -webkit-box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
                 -moz-box-shadow: 8px 9px 12px -5px rgba(0,0,0,0.54);
+            }
+            .error{
+                font-size: 15px;
             }
         }
     }
@@ -54,7 +62,7 @@
         flex-direction: column;
         align-items: center;
         width: 50%;
-        margin-top: 30px;
+        margin-top: 50px;
         div{
             display: flex;
             width: 80%;
@@ -77,6 +85,131 @@
             p{
                 margin: 5px;
                 color: $black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .contacto-container{
+        max-width: 100%;
+        flex-direction: column;
+        .form-container{
+            width: 100%;
+            margin-top: 40px;
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                label{
+                    font-size: 15px;
+                }
+                input{
+                    width: 90%;
+                    padding: 8px;
+                }
+                textarea{
+                    min-height: 50px;
+                    width: 90%;
+                    padding: 8px;
+                }
+                button{
+                    padding: 10px 20px;
+                    font-size: 14px;
+                    width: 40%;
+                }
+                .error{
+                    font-size: 13px;
+                }
+            }
+        }
+        .info-container{
+            width: 100%;
+            div{
+                width: 80%;
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 8px;
+                }
+            }
+            .datos{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                h4{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 15px;
+                    margin: 5px;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:800px){
+    .contacto-container{
+        max-width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        .form-container{
+            width: 80%;
+            margin-top: 40px;
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                label{
+                    font-size: 15px;
+                }
+                input{
+                    width: 90%;
+                    padding: 8px;
+                }
+                textarea{
+                    min-height: 50px;
+                    width: 90%;
+                    padding: 8px;
+                }
+                button{
+                    padding: 10px 20px;
+                    font-size: 14px;
+                    width: 40%;
+                }
+                .error{
+                    font-size: 13px;
+                }
+            }
+        }
+        .info-container{
+            width: 100%;
+            div{
+                width: 80%;
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 8px;
+                }
+            }
+            .datos{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                h4{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 15px;
+                    margin: 5px;
+                    color: $black;
+                }
             }
         }
     }

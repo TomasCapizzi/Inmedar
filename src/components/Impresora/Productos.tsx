@@ -1,13 +1,13 @@
 import {useState, useEffect} from 'react'
 import Producto from './Producto'
 import { productos } from '../../data/productos'
-import { producto } from '../../types/producto'
+import { implante } from '../../types/implante'
 
 //type Props = {}
 
 export default function Productos() {
 
-    const [ProductosArr, setProductosArr] = useState<producto[]>([]);
+    const [ProductosArr, setProductosArr] = useState<implante[]>([]);
 
     useEffect(()=>{
       setProductosArr(productos);

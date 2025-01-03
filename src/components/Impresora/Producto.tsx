@@ -1,14 +1,13 @@
-import React from 'react'
-import { producto } from '../../types/producto'
+import { implante } from '../../types/implante'
 
 type Props = {
-  prod: producto
+  prod: implante
 }
 
 export default function Producto({prod}: Props) {
   return (
     <div className='producto'>
-      <h4>{prod.name}</h4>
+      <h4>{prod.nombre}</h4>
       <img src={prod.img} alt="producto" />
     </div>
   )
