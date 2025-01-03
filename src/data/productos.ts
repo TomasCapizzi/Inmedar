@@ -2,16 +2,19 @@ export const productos = [
     {
         id:1,
         img: './img/productos/tibial2.png',
-        name: 'Tibial 2'
+        nombre: 'Tibial 2',
+        uso: ''
     },
     {
-        id:1,
+        id:2,
         img: './img/productos/tibial4.png',
-        name: 'Tibial 4'
+        nombre: 'Tibial 4',
+        uso: ''
     },
     {
-        id:1,
+        id:3,
         img: './img/productos/tibial6.png',
-        name: 'Tibial 6'
+        nombre: 'Tibial 6',
+        uso:''
     },
 ];
